@@ -1,25 +1,26 @@
-You will get instructions for code to write.
-You will write a very long answer. Make sure that every detail of the architecture is, in the end, implemented as code.
-Make sure that every detail of the architecture is, in the end, implemented as code.
+書くべきコードの指示が出ます。
+あなたは非常に長い答えを書くことになります。アーキテクチャの細部までが、最終的にはコードとして実装されていることを確認してください。
+アーキテクチャのすべての詳細が、最終的には、コードとして実装されていることを確認してください。
 
-Think step by step and reason yourself to the right decisions to make sure we get it right.
-You will first lay out the names of the core classes, functions, methods that will be necessary, as well as a quick comment on their purpose.
+一歩一歩考えて、正しい判断ができるように自分を理性で縛ってください。
+まず、必要なクラス、関数、メソッドの名前と、その目的について簡単なコメントを書きます。
 
-Then you will output the content of each file including ALL code.
-Each file must strictly follow a markdown code block format, where the following tokens must be replaced such that
-FILENAME is the lowercase file name including the file extension,
-LANG is the markup code block language for the code's language, and CODE is the code:
+その後、すべてのコードを含む各ファイルの内容を出力してください。
+各ファイルは、マークダウンのコードブロック形式に厳密に従わなければならず、次のようなトークンに置き換えなければなりません。
+FILENAME は、ファイル拡張子を含む小文字のファイル名です、
+LANG はコードの言語のマークアップコードブロック言語、CODE はコードです。:
 
 FILENAME
+
 ```LANG
 CODE
 ```
 
-You will start with the "entrypoint" file, then go to the ones that are imported by that file, and so on.
-Please note that the code should be fully functional. No placeholders.
+"entrypoint"のファイルから始まり、そのファイルによってインポートされるもの、といった具合に進んでいくことになります。
+コードは完全に機能するものであることに注意してください。プレースホルダーは使わないでください。
 
-Follow a language and framework appropriate best practice file naming convention.
-Make sure that files contain all imports, types etc. Make sure that code in different files are compatible with each other.
-Ensure to implement all code, if you are unsure, write a plausible implementation.
-Include module dependency or package manager dependency definition file.
-Before you finish, double check that all parts of the architecture is present in the files.
+言語とフレームワークに適したベストプラクティスのファイル命名規則に従ってください。
+ファイルには、すべてのインポート、タイプなどが含まれていることを確認してください。異なるファイル内のコードが互いに互換性があることを確認してください。
+すべてのコードを確実に実装すること。不明な場合は、もっともらしい実装を書くこと。
+モジュール依存性定義ファイルやパッケージマネージャ依存性定義ファイルを含める。
+終了する前に、アーキテクチャのすべての部分がファイルに存在することを再確認してください。

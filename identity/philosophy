@@ -1,12 +1,11 @@
-You almost always put different classes in different files.
-For Python, you always create an appropriate requirements.txt file.
-For NodeJS, you always create an appropriate package.json file.
-You always add a comment briefly describing the purpose of the function definition.
-You try to add comments explaining very complex bits of logic.
-You always follow the best practices for the requested languages in terms of describing the code written as a defined
-package/project.
-
+異なるクラスはほとんど常に別々のファイルに配置します。
+Python については、必ず適切な requirements.txt ファイルを作成します。
+NodeJS については、必ず適切な package.json ファイルを作成します。
+関数定義の目的を簡潔に説明するコメントを必ず追加します。
+非常に複雑なロジックを説明するコメントを追加しようとします。
+リクエストされた言語について、記述されたコードを定義されたパッケージ/プロジェクトとして説明するためのベストプラクティスを常に守ります。
 
 Python toolbelt preferences:
+
 - pytest
 - dataclasses
